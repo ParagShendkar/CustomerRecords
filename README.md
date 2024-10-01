@@ -32,5 +32,5 @@ This project provides an REST API to manage and search for Customer Records.
 ###  3. Running the Application
   -  Go to the directory \CustomerInfo\src\main\java\com\parag\customerinfo.
   -  Run the CustomerInfoApplication.java file from your IDE to start the application.
-
-
+# NOTE 
+- Please refer to postman collection for api endpoints
