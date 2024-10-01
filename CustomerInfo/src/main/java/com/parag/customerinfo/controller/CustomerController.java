@@ -9,6 +9,7 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -55,6 +56,11 @@ public class CustomerController {
             customers.ifPresent(allCities::addAll); // Adds all customers from the Optional list to allCities
         }
         return allCities;
+    }
+
+    @GetMapping("/get_all_dob")
+    public List<LocalDate> allDOB(){
+        return dao.findAllDateOfBirth();
     }
 
 }
