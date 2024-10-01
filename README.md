@@ -1,6 +1,6 @@
 # Customer Records API using Springboot and hibernate
 
-This project provides an API to manage and search for supplier details as part of a proof of concept for MakerSharks.
+This project provides an REST API to manage and search for Customer Records.
 
 ## Requirements
 
